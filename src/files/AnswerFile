@@ -1,0 +1,370 @@
+***Zhazira***
+1-Variables are containers for storing data values
+
+2-public static void main(String[] args) {
+
+        double side = 3.5;
+        double area = side * side;
+        double perimeter = 4 * side;
+
+        System.out.println("perimeter = " + perimeter);
+        System.out.println("area = " + area);
+        System.out.println("side = " + side);
+    }
+
+
+
+
+
+***Gulsum***
+1- The action of linking things together by using “+” operator
+There must be a string of text on the right or left side of the “+” operator
+
+2- public static void main(String[] args) {
+
+        String student_name = "Bahar";
+        int age = 32;
+        char gender = 'F';
+        String school_name = "Cydeo";
+        String phone_number = "(###)-###-####";
+        boolean full_time = true;
+        double GPA = 2.5;
+
+        System.out.println("student_name = " + student_name);
+        System.out.println("age = " + age);
+        System.out.println("gender = " + gender);
+        System.out.println("school_name = " + school_name);
+        System.out.println("phone_number = " + phone_number);
+        System.out.println("full_time = " + full_time);
+        System.out.println("GPA = " + GPA);
+
+    }
+
+
+
+
+
+***Sultan***
+1-  There are two types of primitive type castings: implicit and explicit castings
+
+2- public static void main(String[] args) {
+
+        String name = "Bahar";
+        int birthDay = 02;
+        String birthMonth = "October";
+        int birthYear = 1989;
+
+       //John was born on April/25/1995.
+
+        System.out.println(name + " was born on " + birthMonth + "/" + birthDay + "/" + birthYear + ".");
+
+        // My favorite book is "bookName"
+
+        String bookName = "The Alchemist";
+
+        System.out.println("My favorite book is " + "\"" + bookName + "\"");
+
+    }
+
+
+
+
+***Edip***
+
+    1- Pre Increment/decrement operators are placed before the operand
+ Increases/decreases the value by 1 in the memory
+ Post Increment/decrement operators are placed after the operand
+ Old value of the variable will be used first before Increases/decreases the value by 1 in the
+memory
+
+2- public static void main(String[] args) {
+
+
+        int number = 200;
+
+        boolean isPositive = number > 0;
+        boolean isNegative = number < 0;
+        boolean isZero = number == 0;
+
+        System.out.println("number = " + number);
+
+        System.out.println(number + " is positive number: " + isPositive);
+        System.out.println(number + " is negative number: " + isNegative);
+        System.out.println(number + " is zero: " + isZero);
+    }
+
+
+
+
+
+***Bahar***
+
+1- Single if: can be used creating condition for 1 possible output
+
+2- public static void main(String[] args) {
+
+        int number = 6;
+
+        boolean has28Days = number == 2; // for the month that has 28 days
+        boolean has30Days = number == 4 || number == 6|| number == 9 || number == 11; // for the months that has 30 days
+        boolean has31Days = number == 1|| number == 3|| number == 5|| number== 7|| number == 8|| number ==  10|| number == 12; // if the month does not have 28 days and does not have 30 days
+        // or u can write it like
+        // boolean has31Days = !has28Days && !has30Days;
+
+        if(has28Days){ //if the month has 28 days
+            System.out.println("28 Days");
+        }
+        if(has30Days){ //if the month has 30 days
+            System.out.println("30 Days");
+        }
+
+        if(has31Days){ //if the month has 31 days
+            System.out.println("31 Days");
+        }
+    }
+
+
+***Jamal***
+1- if & else: when there are only two option/possibilities ( not more not less than 2 condition)
+
+2- public static void main(String[] args) {
+
+        int n = -10;
+        String condition;
+
+        if(n>0) {
+            condition = "Positive";
+        }else {
+
+            condition = "Non-Positive";
+        }
+        System.out.println(condition);
+
+
+
+
+
+***Yavuz***
+1- Multi-branch if: when there are three or more option/possibilities
+
+2- public static void main(String[] args) {
+
+        int price = 30000;
+        double taxRate;
+
+        if(price>=20000 && price<=39999){
+
+            taxRate = 0.2;
+    } else if (price>=40000 && price<=59999) {
+            taxRate = 0.3;
+        }else {
+            taxRate = 0.4;
+        }
+
+        System.out.println(taxRate);
+
+        }
+    }
+
+
+
+
+***Irsad***
+1- nested if: When we have Pre-condition
+
+2- public static void main(String[] args) {
+
+
+        int age = 21;
+
+
+
+
+        if(age>=18){
+
+            System.out.println("Please enter your weight");
+            int weight = scan.nextInt();
+
+
+            if(weight>50){
+                System.out.println("You are eligible to donate blood");
+            }else{
+                System.out.println("You are not eligible to donate blood");
+            }
+
+
+
+
+        }else{
+            System.out.println("Age should be bigger than 18");
+        }
+    }
+
+
+
+***Zehra***
+1- Switch statement’s expression must be
+evaluated to a single value, it can not be long,
+double, float and Boolean data types.
+
+2- public static void main(String[] args) {
+
+        double n1 = 200.5,
+                n2 = 10.5;
+
+        char operator = '$';
+
+        boolean valid = operator == '+' || operator == '-' || operator == '*' || operator == '/';
+
+        if(valid){ // Operator: +, -, *, /
+
+            switch (operator){
+
+                case '+':
+                    System.out.println(n1 + n2);
+                    break;
+
+                case '-':
+                    System.out.println(n1 - n2);
+                    break;
+
+                case '*':
+                    System.out.println(n1 * n2);
+                    break;
+
+                default:
+                    System.out.println(n1 / n2);
+
+            }
+
+        }else{
+            System.err.println("Invalid Operator: "+operator);
+        }
+
+
+    }
+
+
+
+***Bruce***
+1- Scanner Class: used for getting user inputs
+
+2- public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the radius of the circle");
+
+        double radius = input.nextDouble();
+
+        double area = radius*radius * 3.14;
+        double perimeter = 2*radius*3.14;
+
+        System.out.println("perimeter = " + perimeter);
+        System.out.println("area = " + area);
+
+        input.close();
+
+    }
+
+
+
+***Kamuran***
+1- charAt(index): returns the character at the given index, returns char
+
+2- public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter your first name");
+        String firstName = scan.next();
+
+        System.out.println("Enter your last name");
+        String lastName = scan.next();
+
+        char f = firstName.charAt(0);
+        char l = lastName.charAt(0);
+
+        String initial = f+"."+l ; // to make it concatenation we add an  "" string in it
+
+        System.out.println("initial = " + initial);
+
+
+    }
+
+
+***Yusuf***
+1- length(): returns the total number of characters, returns int
+
+                        last index: length() -1
+
+2- public static void main(String[] args) {
+
+        String str = "Java is java in everywhere is Java";
+
+        int counter = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ' ') {
+                counter++;
+            }
+            System.out.println(counter + 1);
+        }
+    }
+
+
+
+***Matthew***
+1- substring(beginningIndex , endingIndex): creates substring starting from the given beginning index till the given edning index (ending index is excluded)
+
+2- public static void main(String[] args) {
+
+        String word = "Code";
+        String temp = "";
+
+        for (int i = 0; i <= word.length(); i++) {
+            String str = word.substring(0,i);
+           // System.out.println(str);
+            temp+=str;
+        }
+
+        System.out.println(temp);
+    }
+
+
+
+***Veysel***
+1- There are three types of loops:
+        1. For loop
+        2. While loop
+        3. Do while
+
+2- for(int i = 1; i <=55; i++){
+
+            if(i%2==0)
+            System.out.print(i+" ");
+        }
+        System.out.println();
+
+
+
+***Gokhan***
+1- Array: Special variable that can contain multiple elements
+           Size is fixed
+           supports primitives & non-primitives
+
+2- public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        int[] numbers = new int[10];
+
+        for (int i = 0; i < numbers.length; i++) {
+
+            System.out.println("Enter a number");
+            int num = scan.nextInt();
+            numbers[i] = num; // each user entered input will be assigned to the indexes of the array numbers
+
+        }
+
+        System.out.println("Array Numbers: "+Arrays.toString(numbers));

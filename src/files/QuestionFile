@@ -1,0 +1,180 @@
+***Gokhan***
+1. Can you explain Array?
+
+2. Write a program that asks user to enter a number 10 times:
+			1. store all user entered numbers in an array
+
+
+
+
+***Veysel***
+1. What are the Loop types?
+
+2. print all the even numbers between 1 ~ 55
+
+
+
+
+***Matthew***
+1.Can you explain substring method?
+
+2. Given a non-empty string like "Code" print a string like below output.
+
+ *                                 Code → "CCoCodCode"
+ *                                 abc → "aababc"
+ *                                 ab → "aab"
+
+
+
+
+***Yusuf***
+1.Can you explain length() method?
+
+2. Given a sentence which is string and count the words in it.
+
+input:
+
+  String str="Java is java in everywhere is Java";
+
+  output:7
+
+
+
+***Kamuran***
+1. Can you explain charAt method?
+
+2. Create a class to display your initials
+	initial:
+		firstName = "Wooden";
+		lastName = "Spoon";
+
+	output:
+		W.S
+
+
+***Bruce***
+1. What is Scanner used for?
+
+2. Circle:
+            1.1 Ask the user to enter the radius of the circle
+            1.1 Calculate the area and perimeter of the circle by using the radius
+            double area = radius*radius * 3.14;
+            double perimeter = 2*radius*3.14
+
+
+
+
+***Zehra***
+1. Which data types we can not use in Switch statements?
+
+2. Given two double variables n1, n2 and a char variable named operator.
+use switch statement to calculate the result of n1 & n2 based on the given operator
+		Valid operators are: -, +, *, /
+
+
+
+
+***Irsad***
+1. When do we use nested if statement?
+
+2. Create a program that accepts age and weight(kg) as int.
+
+                            If age greater than or equal 18 and weight greater than 50 kg give a message
+                                EXPECTED  :  "You are eligible to donate blood"
+
+                            If age greater than or equal 18 and weight smaller or equal than 50 kg give a message
+                                EXPECTED  :  "You are not eligible to donate blood"
+
+                            If age is smaller than 18 "Age must be greater than 18"
+                                EXPECTED  :  "Age must be greater than 18"
+
+***Yavuz***
+1. When do we use multi branch if statement?
+
+2. Create a class which is "CalculateCarTax"
+        if the price between $20000 and $39999 taxRate=0.2
+        if the price between $40000 and $59999 taxRate=0.3
+        if the price between $60000 and $80000 taxRate=0.4
+
+***Jamal***
+1. When do we use if-else statement?
+
+2.Create a class which is "NumberPositiveOrNegaive"
+and create a variable if
+the variable is positive print "positive" if not "negative"
+
+
+
+***Bahar***
+1. When do we use single if statement?
+
+2. Write a program that can print the number of days in a month
+
+			Ex:
+				number = 1 ~ 12;
+
+			output:
+				31 Days
+
+
+			Hints:
+				Months that has 31 days: 1, 3, 5, 7, 8, 10, 12
+				Months that has 30 days: 4, 6, 9, 11
+				Month that has 28 days: 2
+
+
+***Edip***
+1. Can you explain Pre/Post Increment/Decrement?
+
+2. Create a class called IdentifyNumber, and write a program that can identify if the given number is positive, or negative or zero.
+			Ex:
+				number = 200
+			output:
+		        200 is positive number: true
+		        200 is negative number: false
+		        200 is zero: false
+
+
+
+
+***Sultan***
+1. What are the types of primitive casting?
+
+ 2. Create a class named BirthDay and create the following variable
+			 name, birthDay(int), birthMonth(String), birthYear(int)
+
+			 use concatenation to display the birthday of the person
+
+			 	if  name = "John"
+			 		birthDay = 25
+			 	    birthMonth = "April"
+			 	    birthYear = 1995;
+
+			 	output:
+			 		John was born on April/25/1995.
+
+
+
+***Gulsum***
+1. Can you explain Concatenation?
+
+2. Create a class called StudentInfo, and declare variables for the followings:
+    			1. student name (String)
+    			2. age (int)
+    			3. gender (char)
+    			4. school name (String)
+    			5. phone number (String) (###)-###-####
+    			6. full time (boolean)
+
+
+
+***Zhazira***
+
+1. Can you explain Variable?
+
+
+2. Create a class named Square, write a program that can calculate the area & perimeter of any given square
+						side
+
+						area = side * side;
+						perimeter = 4 * side

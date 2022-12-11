@@ -1,0 +1,63 @@
+ /*
+
+    ***Branching***
+     To make changes in safe environment make a copy
+     right-click on your local master->write the branch name->create
+
+     To delete your branch
+     1-Checkout to master
+     2-Go to commit
+     3-Find the Rollback icon (under the commit to master)
+     4-Check the box says "Delete local copies.." ( if you want )
+     5-Click on Rollback
+
+
+    ***Flow***
+    file->staging area->local repository->remote repository
+    1- create a file
+    2- add the file to staging area
+        // to add the files into the staging area
+        //right-click on the file->go to Git->go to add->click to add
+        //for multiple files right click on Package
+    3- commit your file one by one with explanation
+    4- push your file from local master to remote(origin) master
+
+
+     ***Reverse flow***
+     (I am assuming) that my friend add some code in my file
+     I need to get updated version of the file
+     1- Fetch -> I want to see what is going on in remote repository
+     2- Pull -> add changes into your local repository
+     OR Update -> also adding the changes into local repository
+
+
+     ***Pull Request***
+
+     One Way
+     1- After writing your code commit and push
+     2- Go to your GitHub
+     3- Click on "Pull requests"
+     4- Click on "New request"
+     5- Choose your branch to compare
+     6- Click "Create pull request"
+     7- Write your pull request title
+     8- Click "Create pull request"
+     9- You will be able to see your pull request under "Pull requests" in GitHub
+
+     Another Way
+     1- After writing your code commit and push
+     2- In your intelliJ go to "Pull request" ( at left under project)
+     3- Click +(plus)
+     4- Check if it is from your branch to origin (remote repository)
+     5- Write a description (title) for your pull request
+     6- Go to your GitHub
+     7- Find the project
+            OR in your intelliJ right-click on your project name -> Open In -> GitHub
+     8- Click on "Pull requests" in GitHub
+     9- You will be able to see your pull request under "Pull requests" in GitHub
+
+
+
+
+
+     */
