@@ -9,10 +9,11 @@ public class NumbersToArray {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("Please enter a number");
             int number = scanner.nextInt();
-            numbers[i] = number;
+            numbers[i] = number;//assigns each number as an array's element
         }
         scanner.close();
         System.out.println("Numbers stored : " + Arrays.toString(numbers));
+
     }
 }
 /*
