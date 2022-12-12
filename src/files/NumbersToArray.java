@@ -1,8 +1,6 @@
 package collaborationGroup6;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class NumbersToArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,6 +12,5 @@ public class NumbersToArray {
             numbers[i] = number;
         }
         System.out.println("Numbers stored : " + Arrays.toString(numbers));
-
     }
 }
