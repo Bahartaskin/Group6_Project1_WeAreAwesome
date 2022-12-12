@@ -1,7 +1,9 @@
 # Group6_Project1_WeAreAwesome
 
-# Let's pratice Git and gitHub!
+# Let's practice Git and gitHub!
 
-# Thanks for the iniative
+# Thanks for the initiative!
 
-# Let's start
+# This is awesome!
+
+# Let's start!
