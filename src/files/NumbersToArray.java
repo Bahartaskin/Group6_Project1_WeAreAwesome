@@ -11,6 +11,7 @@ public class NumbersToArray {
             int number = scanner.nextInt();
             numbers[i] = number;
         }
+        scanner.close();
         System.out.println("Numbers stored : " + Arrays.toString(numbers));
     }
 }
