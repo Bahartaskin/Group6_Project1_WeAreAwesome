@@ -1,6 +1,6 @@
-package src;
+package src.files;
 
-public class veys_branch1 {
+public class veys {
     public static void main(String[] args) {
         //***Veysel***
         /*1. What are the Loop types?
