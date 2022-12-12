@@ -1,0 +1,16 @@
+***Yusuf***
+1.Can you explain length() method?
+  Answer:  we can apply length() method to String objects in java. It returns number of characters for given a String. 
+
+2. Given a sentence which is string and count the words in it.
+
+input:
+
+  String str="Java is java in everywhere is Java";
+
+  output:7
+  
+  Answer: we can convert this to Array and we get array's length. code below
+  
+         String[] result = str.split(" ");
+        System.out.println(result.length);
