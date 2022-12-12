@@ -349,10 +349,9 @@ double, float and Boolean data types.
 
 
 ***Gokhan***
-1- Array: Special variable that can contain multiple elements
-           Size is fixed
-           supports primitives & non-primitives
-
+1- Array:  Array is a special variable that can contain multiple elements
+           Array's size is fixed
+           Arrays support primitives & non-primitives
 2- public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
