@@ -6,4 +6,4 @@
 
 # This is awesome!
 
-# Let's start!
+# Let's start! We will learn !
