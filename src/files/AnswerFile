@@ -341,8 +341,8 @@ double, float and Boolean data types.
 
 2- for(int i = 1; i <=55; i++){
 
-            if(i%2==0)
-            System.out.print(i+" ");
+            if(i%2 == 0)
+            System.out.print(i+ " ");
         }
         System.out.println();
 
