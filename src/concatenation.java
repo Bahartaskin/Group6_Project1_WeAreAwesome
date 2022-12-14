@@ -8,7 +8,7 @@ public class concatenation {
 
         //another way to concatenate string
 
-        word1 +="" + word2;
+        word1 +=""+word2;
         System.out.println(word1);
     }
 }
