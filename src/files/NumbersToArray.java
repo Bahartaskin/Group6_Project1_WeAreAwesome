@@ -14,6 +14,8 @@ public class NumbersToArray {
         System.out.println("Numbers stored : " + Arrays.toString(numbers));
     }
 }
+
+
 /*
 1. Can you explain Array?
        Array is a special variable that can contain multiple elements
@@ -32,4 +34,5 @@ public class NumbersToArray {
 				2. DataType[] variableName = {data1, data2, dat3 ...}
 
 2. Write a program that asks user to enter a number 10 times and store all user entered numbers in an array
+
 */
